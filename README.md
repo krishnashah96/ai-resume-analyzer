@@ -20,12 +20,9 @@ An AI-powered web application that analyzes a resume against a job description u
 ---
 
 ## 🖼️ Demo
+<img width="912" height="506" alt="image" src="https://github.com/user-attachments/assets/16c3e06c-fbfb-412e-a560-dc5068d3431b" />
 
-> **Coming Soon**
-
-*(Add screenshots or a GIF after deployment.)*
-
----
+<img width="903" height="514" alt="image" src="https://github.com/user-attachments/assets/e6741e0c-ab9f-49ba-a1ea-a638923883e7" />
 
 ## 🛠️ Tech Stack
 
