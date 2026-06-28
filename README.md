@@ -1,29 +1,143 @@
-# AI Resume Analyzer
+# 🧠 AI Resume Analyzer
 
-AI Resume Analyzer is a Streamlit web app that compares a resume with a job description and gives structured feedback.
+An AI-powered web application that analyzes a resume against a job description using **Google Gemini AI** and provides actionable feedback to improve ATS compatibility and job fit.
 
-## Features
+---
 
-- Upload resume in PDF or DOCX format
-- Paste a job description
-- Get AI-powered analysis
-- View match score
-- See matched skills, missing skills, strengths, weaknesses, and suggestions
-- Clean UI with tabs and metrics
+## 📌 Features
 
-## Tech Stack
+* 📄 Upload resumes in **PDF** or **DOCX** format
+* 💼 Paste any job description
+* 🤖 AI-powered resume analysis using Google Gemini
+* 🎯 Resume Match Score
+* ✅ Matching Skills
+* ❌ Missing Skills
+* 💪 Strengths
+* ⚠️ Weaknesses
+* 💡 Personalized improvement suggestions
+* 📊 Clean and interactive Streamlit UI
 
-- Python
-- Streamlit
-- Google Gemini API
-- PyPDF2
-- python-docx
-- python-dotenv
+---
 
-## Setup
+## 🖼️ Demo
 
-### 1. Create and activate virtual environment
-### 2. Install dependencies
+> **Coming Soon**
+
+*(Add screenshots or a GIF after deployment.)*
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Streamlit
+* Google Gemini API
+* PyPDF2
+* python-docx
+* python-dotenv
+
+---
+
+## 📂 Project Structure
+
+```text
+ai-resume-analyzer/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── .env
+│
+└── utils/
+    └── gemini.py
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/krishnashah96/ai-resume-analyzer.git
+cd ai-resume-analyzer
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment:
+
+**Windows**
+
+```bash
+.venv\Scripts\activate
+```
+
+**macOS/Linux**
+
+```bash
+source .venv/bin/activate
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Export analysis as PDF
+* ATS compatibility dashboard
+* Resume keyword highlighting
+* Cover letter generator
+* Multi-language support
+* Dark mode
+* Retry mechanism for API failures
+
+---
+
+## 📚 What I Learned
+
+This project helped me learn:
+
+* Streamlit application development
+* Google Gemini API integration
+* Prompt engineering
+* PDF/DOCX text extraction
+* Environment variable management
+* Git and GitHub workflow
+* Building and deploying AI-powered applications
+
+---
+
+## 👨‍💻 Author
+
+**Krishna Shah**
+
+GitHub: https://github.com/krishnashah96
